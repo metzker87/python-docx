@@ -51,8 +51,11 @@ h3.base_style = style["Heading 3"]
 h3.font.name = "Calibri"
 h3.font.size = Pt(12)
 h3.font.color.rgb = RGBColor(79, 129, 189)
-h3.font.bold = False 
+h3.font.bold = False
 
+# Alignment of image
+h4 = style.add_style("H4", WD_STYLE_TYPE.PARAGRAPH)
+h4.font.a
 document.add_heading(data.get("Title"), 0)
 
 for content in data.get("Content"):
@@ -63,6 +66,8 @@ for content in data.get("Content"):
     # Add paragraph with h3
     document.add_paragraph("Image", style="H3")
     document.add_picture(content.get("Image"), width=Inches(1.25))
+
+
     """
     # Add paragraph with h3
     document.add_paragraph("Table", style="H3")
