@@ -5,10 +5,10 @@ from docx.shared import Pt, RGBColor, Inches
 document = Document()
 sections = document.sections
 for section in sections:
-    section.top_margin = Inches(0.5)
-    section.bottom_margin = Inches(0.5)
-    section.left_margin = Inches (0.5)
-    section.right_margin = Inches(0.5)
+    section.top_margin = Inches(1)
+    section.bottom_margin = Inches(1)
+    section.left_margin = Inches (1)
+    section.right_margin = Inches(1)
 
 name = input('Name: ')
 protocol = input('Protocol: ')

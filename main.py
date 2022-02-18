@@ -23,7 +23,8 @@ data = {
             "Table": ["1", "2", "3"]
         },
         {
-            "Chapter": "Chapter 1 text",
+            "Chapter": "Chapparagraph = document.add_paragraph(f'Python is cool!!\n'
+    f'This document was created by {name}, with the protocol {protocol}')ter 1 text",
             "Text": "This is my text 3 \n This is still my text 3",
             "Image": "pmmg.png",
             "Table": ["1", "2", "3"]
